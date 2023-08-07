@@ -1,0 +1,8 @@
+name: Test
+on: workflow_dispatch
+jobs:
+  first-job:
+    runt-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "hello"
